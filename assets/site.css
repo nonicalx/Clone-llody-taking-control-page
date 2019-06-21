@@ -1,0 +1,323 @@
+.banner{
+    background-color: #f1f1f1;
+    margin: 0px !important;
+    padding-left: 15%;
+}
+
+.banner-link{
+    text-decoration: none !important;
+    color: darkgray;
+}
+.banner-link:hover{
+    color: darkgray;
+}
+
+.banner p{
+    font-size: 14px;
+}
+.share{
+    color: #0c4fb9;
+    text-decoration: none !important;
+}
+
+.downloadBtn{
+    color: white;
+    background-color: #0a4bb7;
+    border: 0;
+    height: 50px;
+    width: 100px;
+}
+footer{
+    background-color: black;
+}
+
+
+.top-space{
+    padding-top: 0px !important;
+}
+.link{
+    /* text-decoration: none !important; */
+    color: white;
+    font-size: 0.9em;
+    padding-bottom: 14px;
+}
+
+.link:hover{
+    color: white;
+}
+.terms{
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 4px;
+}
+
+.terms li{
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+
+
+.social{
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 4px;
+}
+.bookDesc p{
+    font-size: 14px;
+}
+.social li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.copyright{
+    color: white;
+    padding-left: 0px;
+    font-size: 14px;
+}
+
+.upper-nav{
+    list-style: none;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    font-size: 14px;
+}
+#logo{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    height: 100%;
+}
+.upper-nav li{
+    display: inline-block;
+    padding-right: 7px;
+    color: black;
+    border-right: 1px solid lightgray;
+    
+}
+.upper-nav a{
+    color: black;
+}
+.upper-nav a:hover{
+    color: black;
+}
+.upper-nav span{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 9px;
+}
+#search{
+    border: 0;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 0px !important;
+    padding-left: 10px !important;
+    margin: 0px !important;
+}
+#search:focus{
+    outline: 0;
+}
+#search-li{
+    border: 0;
+    width: 180px;
+    border-bottom: 1px solid black;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.lower-nav{
+    list-style: none;
+    padding-top: 30px !important;
+    margin: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px;
+    font-size: 14px;
+}
+.lower-nav a{
+    display: block;
+    margin: 0px !important;
+    color: white;
+    font-weight: bold !important;
+}
+.lower-nav li{
+    display: inline-block;
+    background-color: #282f54;
+    height: 100%;
+    margin: 0 !important;
+    padding: 10px 30px;
+}
+.lower-nav li:hover{
+    background-color: whitesmoke;
+    
+}
+.lower-nav a:hover{
+    color: #282f54;
+}
+#mobile-mode{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 1025px){
+    #desk-mode{
+        display: none;
+    }
+    #mobile-mode{
+        display: block;
+    }
+    #mLogo{
+        margin-right: 70%;
+    }
+    .mIcons{
+        color: black;
+        padding: 0px 6px !important;
+        font-size: 25px;
+    }
+    .mIcons:hover{
+        color: black;
+    }
+    .first-items{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .first-items-li{
+        background-color: #282f54;
+        font-weight: bold;
+        border-bottom: 1px solid white;
+        font-size: 14px;
+        padding: 12px 0px 12px 12px;
+        margin: 0 !important;
+        list-style: none;
+        width: 100%;
+    }
+    .first-items a{
+        color: white;
+        text-decoration: none;
+    }
+    .drop-list{
+        display: none;
+    }
+    .second-items{
+        list-style: none;
+        padding: 0 !important;
+        margin: 0px;
+        width: 100% !important;
+    }
+    .second-items li{
+        border-bottom: 1px solid lightgray;
+        padding: 12px 0px 12px 12px;
+        margin: 0 !important;
+
+    }
+    .second-items a{
+        color: black;
+        text-decoration: none;
+    }
+    .search{
+        list-style: none;
+        background-color: whitesmoke;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .un-click{
+        display: none;
+    }
+    .search li{
+        padding: 12px 0px 12px 12px;
+        font-size: 16px;
+    }
+    .search input{
+        width: 90%;
+    }
+    .more{
+        font-size: 20px !important;
+        color: #fffcb2 !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        font-weight: 100 !important;
+    }
+    .continent{
+        background-color: #d6d9ef !important;
+        font-weight: bold;
+    }
+
+    .extra{
+        list-style: none;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .extra li{
+        background-color:#dfe0e6;
+        padding: 12px 0px 12px 12px;
+        border-bottom: 1px solid white;
+    }
+    .hide0{
+        display: none;
+    }
+    .hide1{
+        display: none;
+    }
+    .hide2{
+        display: none;
+    }
+    .hide3{
+        display: none;
+    }
+    .hide4{
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width: 720px){
+    .bookImg{
+        display: none !important;
+    }
+    .banner{
+        padding-left: 0.5%;
+    }
+    #mLogo{
+        margin-right: 55%;
+    }
+    .mIcons{
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 480px){
+.terms li{
+    display: block;
+    border: 0;
+}
+#mLogo{
+    margin-right: 40%;
+}
+
+.mIcons{
+    font-size: 16px;
+}
+
+.first-items a{
+    margin-right: 50%;
+}
+}
+
+
+@media screen and (max-width: 320px){
+
+    .first-items a{
+        margin-right: 40%;
+    }
+}

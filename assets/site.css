@@ -15,11 +15,38 @@
 .banner p{
     font-size: 14px;
 }
+
+.black{
+    color: black;
+}
 .share{
-    color: #0c4fb9;
+    color: #0c4fb9 !important;
     text-decoration: none !important;
 }
+.share-links{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    width: 160px;
+}
+.share-links li{
+    display: inline-block;
+    margin: 6px;
+}
+.lock{
+    display: none;
+}
 
+.share-inverse{
+    color: white !important;
+    background-color: black;
+    margin-bottom: 0px !important;
+    padding: 5px;
+}
+.active{
+    display: block;
+}
 .downloadBtn{
     color: white;
     background-color: #0a4bb7;
@@ -125,18 +152,25 @@ footer{
     padding: 0px !important;
     margin: 0px !important;
 }
+#first{
+    background-color:#dfe0e6;
+}
+#first:hover{
+    background-color: whitesmoke;
+}
 
+#first-a{
+    color: #282f54;
+}
 .lower-nav{
     list-style: none;
-    padding-top: 30px !important;
     margin: 0px !important;
-    margin-bottom: 0px !important;
     padding-bottom: 0px !important;
     padding-right: 0px;
     font-size: 14px;
+    border-top: 1px solid #282f54;
 }
 .lower-nav a{
-    display: block;
     margin: 0px !important;
     color: white;
     font-weight: bold !important;
@@ -150,6 +184,7 @@ footer{
 }
 .lower-nav li:hover{
     background-color: whitesmoke;
+    color: #282f54 !important;
     
 }
 .lower-nav a:hover{

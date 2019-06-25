@@ -33,10 +33,10 @@
             </ul>
 
         </div>
-        <div class=" d-flex justify-content-center" style="padding-top: 30px">
+        <div style="padding-top: 30px; text-align: center;">
             <ul class="lower-nav">
                 <li id="first"><a href="#" id="first-a">News and risk insight</a></li>
-                <li><a href="#">Market directory</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#1" id="market">Market directory</a></li>
                 <li><a href="#">Market resources</a></li>
                 <li><a href="#">Tools and systems</a></li>
                 <li><a href="#">Lloyd’s around the world</a></li>
@@ -270,7 +270,14 @@
             </div>
         </div>
     </footer>
-
+    <!-- Modal Market -->
+    <div class="modal fade" id="1" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div  class="modal-body">
+                Lorem ipsum dolor sit amet.
+            </div>
+        </div>
+    </div>
 
     <script>
         $(document).ready(function(){
@@ -305,6 +312,13 @@
                 $('.notin').toggleClass('share-inverse');
                 $('.present').toggleClass('black');
             });
+
+            $('#market').hover(function(){
+                $('#1').modal({
+                show: true,
+                backdrop: false
+    })
+            })
         })
     </script>
 </body>

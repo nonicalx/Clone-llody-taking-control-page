@@ -106,7 +106,7 @@ footer{
 
 .upper-nav{
     list-style: none;
-    padding-top: 0px !important;
+    padding: 0px !important;
     margin-top: 0px !important;
     font-size: 14px;
 }
@@ -163,12 +163,14 @@ footer{
     color: #282f54;
 }
 .lower-nav{
+    display: inline-block;
     list-style: none;
-    margin: 0px !important;
-    padding-bottom: 0px !important;
-    padding-right: 0px;
+    margin: 0 !important;
+    padding: 0;
     font-size: 14px;
-    border-top: 1px solid #282f54;
+    border-top: 1px solid;
+    
+    
 }
 .lower-nav a{
     margin: 0px !important;

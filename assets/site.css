@@ -93,6 +93,7 @@ footer{
 }
 .bookDesc p{
     font-size: 14px;
+    text-align: left;
 }
 .social li{
     display: inline-block;
@@ -172,6 +173,9 @@ footer{
     
     
 }
+.active{
+    display: block;
+}
 .lower-nav a{
     margin: 0px !important;
     color: white;
@@ -195,9 +199,35 @@ footer{
 #mobile-mode{
     display: none;
 }
+.closed{
+    display: none;
+}
+.pops{
+    position: absolute;
+    color: #282f54;
+    background: #f1f1f1;
+    width: 70%;
+}
 
+.pops hr{
+    background-color: #282f54;
+    width: 95%;
+}
 
+.pl{
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+}
 
+.pops a{
+    display: block;
+    color: #282f54;
+    margin-bottom: 1vh;
+}
+.pops p{
+    font-weight: bold;
+    margin: 1vw;
+}
 
 @media screen and (max-width: 1025px){
     #desk-mode{
